@@ -14,7 +14,25 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+function Boxes()
+        {
+            return <div className="container">
+                <div className="yellow">
+                    <div className="content"></div>
+                    <div className="content"></div>
+                </div>
+                <div className="red">
+                    <div className="content"></div>
+                </div>
+                <div className="blue">
+                    <div className="content"></div>
+                    <div className="content"></div>
+                    <div className="content"></div>
+                </div>
+            </div>
+        }
+        ReactDOM.render(<Boxes/>, document.getElementById('root'));
+    </script>
 
 </script>
 <!--
