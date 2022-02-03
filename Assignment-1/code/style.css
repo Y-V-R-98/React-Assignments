@@ -1,1 +1,48 @@
 
+.container{
+    width: auto;
+    height: auto;
+}
+.content{
+    height: 160px;
+}
+.yellow,.blue{
+    display: flex;
+}
+.yellow .content{
+    width: 50%;
+    margin: 1em;
+    background-color: rgb(226, 174, 4);
+    border-radius: 8px;
+}
+.red{
+    width: auto;
+    background-color: rgb(233, 12, 12);
+    margin: 1em;
+    border-radius: 8px;
+}
+.container .blue .content{
+    width: 33%;
+    margin: 1em;
+    background-color: rgb(119, 0, 255);
+    border-radius: 8px;
+}
+/*--------------------------------768px media query----------------------------------*/
+@media(max-width:768px){
+    .container .blue{
+        flex-direction: column;
+    }
+    .container .blue .content{
+        width: auto;
+    }        
+}
+/*--------------------------------320 px media query----------------------------------*/
+@media(max-width:321px)
+{
+    .yellow{
+        flex-direction: column;
+    }
+    .container .yellow .content{
+        width: auto;
+    }
+}
