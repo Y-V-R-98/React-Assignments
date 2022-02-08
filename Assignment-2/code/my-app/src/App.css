@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+/* *********************************************************************** */
+
+.App {
+  text-align: center;
+  /* border: 1px solid black; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 3%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(175, 31, 31); */
+}
+.profile {
+  border-radius: 7px;
+}
+.title h1 {
+  color: rgb(24, 197, 240);
+  text-align: left;
+  width: 100px;
+}
+.profile-info {
+  margin: 5px;
+}
+.profile-info label {
+  font-size: 11px;
+  color: rgba(155, 137, 137, 0.911);
+  display: block;
+  text-align: left;
+  width: 100px;
+}
+.profile-info strong {
+  display: block;
+  text-align: left;
+}
