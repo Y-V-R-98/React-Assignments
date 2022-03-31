@@ -1,0 +1,26 @@
+{
+    "user":
+        [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "relative path from local",
+            "date": "new Date()"
+            },
+            {"name":"Sameer",
+            "location":"San-fransisco",
+            "likes":93,
+            "description": "Sample Description",
+            "PostImage": "Dance to express not to impress",
+            "date": "new Date()"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Sample Description for Post",
+            "PostImage": "Aim high, reach the sky",
+            "date": "new Date()"
+            }
+        ]
+}
